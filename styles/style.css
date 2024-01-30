@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #F3F5FC;
+}
+/* -----------------ENCABEZADO--------------------- */
+header{
+    width: auto;
+    height: 40px;
+    font-weight: bold;
+    padding: 40px 20px 0px 20px;
+    font-size: 25px;
+}
+nav{
+    display: flex;
+}
+nav img{
+    width: 85px; /* Define el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen ajustando automáticamente la altura */
+}
+/* ------------------------MAIN------------------------ */
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* ----------------------TEXAREA------------------ */
+.campo-encriptador{
+    padding-top: 30px;
+}
+
+.input-texto{
+    background: #F3F5FC;
+    font-size: 20px;
+    padding: 20px 0 0 20px;
+}
+.mensaje{
+    display: flex;
+    padding: 10px;
+}
+.mensaje img{
+    width: 15px;
+    height: auto;
+}
+.mensaje p {
+    font-size: 14px;
+    padding-left: 10px ;
+}
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+}
+.encriptar{
+    border-radius: 24px;
+    padding: 12px 30px 12px 30px;
+    background: #0a3871;
+    color: white;
+    font-size: 15px;
+}
+.desencriptar{
+    border-radius: 24px;
+    padding: 12px 30px 12px 30px;
+    font-size: 15px;
+    border: 1px solid #0a3871;
+    background: #D8DFE8;
+}
+/* ----------------------------aREA DEL TEXTO-------------------- */
+.area-texto{
+    background: white;
+    width: 300px;
+    height: 550px;
+    border: 2px solid #000000;
+    border-radius: 32px;
+    margin: 30px 0 40px 0;
+    text-align: center;
+}
+.area-texto img{
+    width: 200px;
+    height: auto;
+    padding-top: 70px;
+}
+.area-texto h2{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px;
+}
+.area-texto p{
+    font-size: 15px;
+    padding: 10px;
+}
+.area-texto:hover{
+    box-shadow: 0px 24px 32px -8px;
+}
+.area-texto .textoNuevo{
+    font-size: 18px;
+    padding: 30px;
+    text-align: left;
+}
+
+/* --------------------- FOOTER --------------------*/
+footer{
+    display: flex;
+    justify-content: center;
+    background: #bcffd2;
+    width: auto;
+    height: 60px;
+    font-weight: bold;
+}
+footer p{
+    font-size: 14px;
+    padding-top: 22px;
+    padding-right: 15px;
+}
+footer img{
+    width: 33px; /* Define el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen ajustando automáticamente la altura */
+    padding-top: 11px;
+}
+footer img:hover{
+    box-shadow: 0px 24px 32px -8px; 
+}

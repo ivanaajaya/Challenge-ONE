@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#"><img src="./images/Logo.svg" alt="logo alura"></a>
+            <h1>Encriptador ORACLE - ALURA</h1>
+        </nav>
+    </header>
+    <main class="contenedor">
+        <div class="campo-encriptador">
+            <div class="texto">
+                <textarea cols="70" rows="20" id="usuarioMensaje" class="input-texto" placeholder="Ingrese el texto aquí" required></textarea>
+                <div class="mensaje">
+                    <img src="./images/bi_exclamation-circle-fill.svg" alt="info">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="botones">
+                    <button onclick="encriptar();" class="encriptar">Encriptar</button>
+                    <button onclick="desencriptar();" class="desencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+        <div class="area-texto" >
+            <p id="nuevoTexto" class="textoNuevo"></p>
+            <div id="myDIV">
+                <img src="./images/Muñeco.svg" alt="Munieco">
+                <h2>Ningún mensaje fue <br> encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o <br>desencriptar.</p>
+            </div>
+            <div id="bttCopi" class="btt"></div>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">&copy Copyright Ivana Yamila Belén Ajaya</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/ivana-ajaya/" target="_blank"><img src="./images/linkedin.svg" alt="linkedin"></a>
+            <a href="https://github.com/ivanaajaya" target="_blank"><img src="./images/github.svg" alt="github"></a>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
