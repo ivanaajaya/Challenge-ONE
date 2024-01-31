@@ -233,7 +233,7 @@ footer img:hover{
     }
     /* ----------------------TEXAREA------------------ */
     .input-texto{
-        width: 410px;
+        width: 350px;
         height: 300px; 
         font-size: 16px;
         padding: 10px;
@@ -250,13 +250,14 @@ footer img:hover{
         display: grid;
     }
     .encriptar, .desencriptar{
-        padding: 10px 90px 10px 90px;
         font-size: 14px;
         margin-bottom: 10px;
+        width: 250px;
+        height: 42px;
     }
     /* ----------------------------AREA DEL TEXTO-------------------- */
     .area-texto{
-        width: 427px;
+        width: 400px;
         height: 400px;
         margin-top: 10px;
         margin-left: 23px;
