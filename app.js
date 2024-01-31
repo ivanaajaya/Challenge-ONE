@@ -42,7 +42,7 @@ function encriptar() {
         asignarTextoElemento(encriptando);
         botonMostrar();
     }else{
-        asignarTextoElemento("ingresar un texto");
+        asignarTextoElemento("Ingresar un texto válido (solo letras minúsculas y sin acentos)");
     }
     limpiarCaja();
     return;
