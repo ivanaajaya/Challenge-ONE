@@ -240,7 +240,7 @@ footer img:hover{
         margin-left: 22px;
     }
     .mensaje{
-        padding: 12px 0 12px 22px;
+        padding: 12px 0 12px 50px;
     }
     .mensaje p {
         font-size: 13px;
@@ -257,7 +257,7 @@ footer img:hover{
     }
     /* ----------------------------AREA DEL TEXTO-------------------- */
     .area-texto{
-        width: 400px;
+        width: 345px;
         height: 400px;
         margin-top: 10px;
         margin-left: 23px;
