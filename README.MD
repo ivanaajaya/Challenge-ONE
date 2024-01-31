@@ -33,6 +33,10 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 
 ¡Disfruta de tu experiencia en el Encriptador de Texto! 🚀
 
+Ejemplo:
+
+fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober!
+
 ---
 
 *Este proyecto forma parte de los Alura Challenges One.*
